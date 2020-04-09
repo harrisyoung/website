@@ -110,7 +110,7 @@ section{
     display: flex;
     height: 80vh;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 .hero{
     height: 100%;
