@@ -7,40 +7,13 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-
-/* .logo-container{
-     display: flex; 
-}
-
-.logo{
-    font-weight: 400;
-    margin: 5px;
-}
-nav{
-    flex: 1;
-   
-}
-
-.nav-links{
-    display: flex;
-    margin-top: 0.5vh;
-    height: 5vh;
-    list-style: none;
-    justify-content: space-around;
-}
-
-.nav-links{
-    color: #5f5f79;
-    font-size: 18px;
-    text-decoration: none;
-} */
-
 .header{
     height: 100px;
     background: #34495e;
     padding: 0 20px;
     color : #fff;
 }
+
 
 .logo{
     line-height: 100px;
@@ -91,19 +64,13 @@ content{
     padding: 0 20px;
 }
 
-/* .content img{
-    width: 100%;
-    max-width: 700px;
-    margin: 20px 0;
-} */
-
 .slider{
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(to right, #4d6fa1, #84ade7);
+    background: #34495e;
     z-index: -2;
 }
 section{
@@ -168,7 +135,7 @@ section{
     }
     .hide-menu-btn{
         position: absolute;
-        top: 40px;
+        top: 20px;
         right: 40px
     }
     #chk:checked ~ .menu{
